@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Geetorus technology</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">Geetorus technology</a>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/login">Login</a>
+        <a href="/signup">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <section class="auth-card">
+      <span class="eyebrow">Get In Touch</span>
+      <h1>Contact Geetorus technology</h1>
+      <p>Have a question or need help? Send us a message and we'll get back to you soon.</p>
+      <form action="/contact" method="POST" class="auth-form">
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          Message
+          <textarea name="message" required placeholder="Write your message here" rows="6"></textarea>
+        </label>
+        <button type="submit" class="button button-primary">Send Message</button>
+      </form>
+      <div class="contact-details">
+        <p><strong>Email:</strong> gayathribai334@gmail.com</p>
+        <p><strong>Phone:</strong> +91 88077 44683</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

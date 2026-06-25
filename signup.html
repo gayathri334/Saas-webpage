@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up - Geetorus technology</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo">Geetorus technology</a>
+      <nav class="main-nav">
+        <a href="/">Home</a>
+        <a href="/login">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="auth-page">
+    <section class="auth-card">
+      <span class="eyebrow">Create Your Account</span>
+      <h1>Sign Up for Geetorus technology</h1>
+      <form action="/signup" method="POST" class="auth-form">
+        <label>
+          Full Name
+          <input type="text" name="name" required placeholder="Your name" />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" required placeholder="you@example.com" />
+        </label>
+        <label>
+          Password
+          <input type="password" name="password" required placeholder="Create a password" />
+        </label>
+        <button type="submit" class="button button-primary">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="/login">Login here</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
